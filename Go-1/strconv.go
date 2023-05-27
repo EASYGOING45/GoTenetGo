@@ -19,6 +19,6 @@ func main() {
 	n2, _ := strconv.Atoi("123")
 	fmt.Println(n2) // 123
 
-	n2, err := strconv.Atoi("AAA")
-	fmt.Println(n2, err) // 0 strconv.Atoi: parsing "AAA": invalid syntax
+	n2, err := strconv.Atoi("AAA") //Atoi
+	fmt.Println(n2, err)           // 0 strconv.Atoi: parsing "AAA": invalid syntax
 }
