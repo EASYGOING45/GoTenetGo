@@ -1,4 +1,4 @@
-module ginLearn
+module Gin-Demo
 
 go 1.19
 
