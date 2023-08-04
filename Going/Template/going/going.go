@@ -97,7 +97,7 @@ func (group *RouterGroup) Static(relativePath string, root string) {
 
 // For custom render function 用于自定义渲染函数
 func (engine *Engine) SetFuncMap(funcMap template.FuncMap) {
-	engine.funcMap = FuncMap
+	engine.funcMap = funcMap
 }
 
 func (engine *Engine) LoadHTMLGlob(pattern string) {
