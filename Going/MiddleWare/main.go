@@ -31,7 +31,7 @@ func main() {
 	v2.Use(onlyForV2()) // v2 group middleware
 	{
 		v2.GET("/hello/:name", func(c *going.Context) {
-			// expect /hello/goingktutu
+			// expect /hello/going
 			c.String(http.StatusOK, "hello %s, you're at %s\n", c.Param("name"), c.Path)
 		})
 	}
